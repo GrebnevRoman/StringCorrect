@@ -11,7 +11,7 @@ public class RegexReplacer {
             Pattern pattern = Pattern.compile("ra");
             Matcher matcher = pattern.matcher(word);
             return matcher.replaceAll("ro");
-        }
-        return "gg";
+        }else  return " Enter valid data";
+       
     }
 }
